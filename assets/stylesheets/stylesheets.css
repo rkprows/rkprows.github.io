@@ -1,6 +1,6 @@
 /* GENERAL */
 body {
-  font-family: "AvenirNext-UltraLight";
+  font-family: "AvenirNext-Regular";
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -17,7 +17,7 @@ h1 {
 /* NAV */
 nav {
   background-color: white !important;
-  font-family: "AvenirNext-UltraLight"
+  font-family: "AvenirNext-Regular"
   font-size: 1.5rem !important;
   box-shadow: none !important;
   margin-top: 15px;
@@ -48,7 +48,7 @@ nav img {
   /*margin-right: 150px;*/
   margin-top: 120px;
   color: #19957F;
-  font-family: "AvenirNext-UltraLight";
+  font-family: "AvenirNext-Regular";
 }
 
 .title h2 {
@@ -64,7 +64,7 @@ nav img {
 
 .SLC {
   font-style: italic;
-  font-family: "AvenirNext-UltraLight";
+  font-family: "AvenirNext-Regular";
   color: #4A4A4A;
   margin-right: 145px !important;
 }
@@ -74,9 +74,35 @@ nav img {
   font-size: 15pt !important;
 }
 
+/* ABOUT */
+.about-title {
+  text-align: right;
+  margin-top: 100px;
+  color: #19957F;
+  letter-spacing: 15px;
+  margin-right: 85px;
+  font-family: "AvenirNext-Regular";
+
+}
+.about  {
+  width: 600px;
+  height: 330px;
+  overflow-y: scroll;
+  margin-left: 370px;
+  text-align: center;
+  font-size: 15pt !important;
+}
+
+/* RESUME */
+
+.resume-title {
+  color: #19957F;
+  letter-spacing: 15px;
+  margin-top: 100px;
+}
 /* FOOTER */
 
 .linked {
   height: 50px;
-  margin: 10px 130px 10px 10px;
+  margin: 10px 75px 10px 10px;
 }
