@@ -100,6 +100,38 @@ nav img {
   letter-spacing: 15px;
   margin-top: 100px;
 }
+
+/* PROJECTS */
+
+.projects {
+  text-align: center;
+  font-size: 15pt !important;
+  width: 500px;
+}
+
+.card {
+  background-color: #4A4A4A !important;
+  width: 500px;
+  height: 350px;
+}
+
+.card-action a{
+  color: #19957F !important;
+}
+
+/* BLOG */
+
+.blog-title h2 {
+  color: #19957F;
+  letter-spacing: 15px;
+  margin-top: 100px;
+}
+
+.blog-title h4, p, h5 {
+  color: #4A4A4A;
+
+}
+
 /* FOOTER */
 
 .linked {
